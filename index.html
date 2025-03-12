@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Pi con tu Cumpleaños</h1>
+
+        <label for="dia">Día:</label>
+        <input type="number" id="dia" min="1" max="31">
+
+        <label for="mes">Mes:</label>
+        <input type="number" id="mes" min="1" max="12">
+
+        <label for="anio">Año:</label>
+        <input type="number" id="anio" min="1900" max="2025">
+
+        <br><br>
+        <button onclick="buscarCumpleEnPi()"> ¿Dónde está mi cumpleaños en π?</button>
+        <button onclick="calcularPi()"> Calcular π con mis decimales</button>
+        <button onclick="mostrarDatoPi()"> ?????</button>
+
+
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
